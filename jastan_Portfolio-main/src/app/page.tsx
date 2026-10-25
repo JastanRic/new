@@ -131,8 +131,6 @@ export default function Home() {
           <div className="w-full lg:w-[70%] xl:w-[60% py-10 xl:py-0 flex flex-col  items-center justify-between gap-6 relative z-10">
             <div className="relative flex  justify-center items-center w-full rounded-[37px] lg:rounded-[40px] bg-white/10 backdrop-blur-[15px] border border-white/50  transition-colors duration-300 ease-in-out overflow-hidden text-justify p-10 text-gray-300 xl:text-lg">
               <p className=" w-full">
-                ## About Me
-
 I am a highly motivated and environmentally conscious graduate of the Faculty of Technology, University of Colombo, holding a Bachelor’s Degree in Biosystems Technology, specializing in Environmental Technology. I am passionate about environmental conservation, sustainability, and the development of innovative solutions to address environmental challenges. I am eager to apply my academic knowledge, technical skills, and practical experience to contribute to sustainable development and environmental protection.
 
 My areas of interest include wastewater management, water treatment, solid waste management, coastal management, microbiology, molecular biology, Geographic Information Systems (GIS), environmental degradation, climate change, energy and the environment, ecology, and other fields related to environmental technology. I am seeking opportunities to enhance my professional skills, gain practical experience, and contribute meaningfully to research, environmental management, and sustainability initiatives.
