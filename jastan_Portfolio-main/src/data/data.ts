@@ -49,14 +49,14 @@ export const experiences: Experience[] = [
     company: "Bt/Hindu College Batticaloa",
     duration: "July 2017 – December 2019",
     role: "G.C.E. Advanced Level",
-    desc: "I completed my G.C.E. (A/L) education in the Technology Stream, with Information and Communication Technology (ICT) as my basket (core) subject. ",
+    desc: "I completed my G.C.E. (A/L) education in the Technology Stream, with Mathametics as my basket (core) subject. ",
     dotColor: "bg-[#FD853A]",
   },
   {
-    company: "University of Sri Jayewardenepura",
+    company: "University of Colombo",
     duration: "June 2020 – March 2025",
     role: "Bachelor of Biosystems Technology (Hons)",
-    desc: "I hold a Bachelor’s degree in Biosystems Technology, specializing in Industrial Biosystems Technology. I have also completed my undergraduate research in the field of aquaculture, which was presented and published at ICIET 2025.",
+    desc: "I hold a Bachelor’s degree in Biosystems Technology, specializing in Environmental Biosystems Technology. I have also completed my undergraduate research in the field of aquaculture, which was presented and published at ICIET 2025.",
     dotColor: "bg-[#1D2939]",
   },
   {
