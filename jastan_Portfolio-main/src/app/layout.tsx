@@ -17,39 +17,39 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://jastanric.vercel.app"),
   title: {
-    default: "Jastan Ric - Wildlife Enthusiast",
-    template: "%s | Jastan Ric",
+    default: "Akshi - Wildlife Enthusiast",
+    template: "%s | Akshi",
   },
   description:
-    "Explore the portfolio of Jastan Ric — wildlife enthusiast, naturalist, and environmental researcher dedicated to conservation and sustainable ecosystems.",
+    "Explore the portfolio of Akshika — wildlife enthusiast, naturalist, and environmental researcher dedicated to conservation and sustainable ecosystems.",
   keywords: [
-    "Jastan Ric",
-    "Jastan",
-    "Jastanric",
-    "JastanRic",
+    "Akshika",
+    "Akshi",
+    "Akshi",
+    "Akshika",
     "wildlife enthusiast",
     "naturalist",
     "environmental researcher",
     "conservation",
     "sustainable ecosystems",
   ],
-  authors: [{ name: "Jastan Ric" }],
-  creator: "Jastan Ric",
+  authors: [{ name: "Akshika" }],
+  creator: "Akshika",
   openGraph: {
-    title: "Jastan Ric - Wildlife Enthusiast",
+    title: "Akshika - Wildlife Enthusiast",
     description:
-      "Explore the portfolio of Jastan Ric — wildlife enthusiast, naturalist, and environmental researcher dedicated to conservation and sustainable ecosystems.",
+      "Explore the portfolio of Akshika — wildlife enthusiast, naturalist, and environmental researcher dedicated to conservation and sustainable ecosystems.",
     url: "https://jastanric.vercel.app",
-    siteName: "Jastan Ric",
+    siteName: "Akshika",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jastan Ric - Wildlife Enthusiast",
+    title: "Akshika - Wildlife Enthusiast",
     description:
-      "Explore the portfolio of Jastan Ric — wildlife enthusiast, naturalist, and environmental researcher dedicated to conservation and sustainable ecosystems.",
+      "Explore the portfolio of Akshika — wildlife enthusiast, naturalist, and environmental researcher dedicated to conservation and sustainable ecosystems.",
     images: ["/og-image.png"],
   },
   robots: {
