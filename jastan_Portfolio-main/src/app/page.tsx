@@ -46,7 +46,7 @@ export default function Home() {
               />
               <div className="flex items-end">
                 <CustomeText
-                  title="Jastan Ric"
+                  title="Akshika"
                   className="text-[#FD853A] font-semibold text-5xl md:text-7xl xl:text-[74px]"
                 />
                 <CustomeText
