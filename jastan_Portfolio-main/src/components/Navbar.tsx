@@ -161,7 +161,7 @@ const Navbar = () => {
         <span
           className={` ${scrollPosition >= 5 ? " hidden lg:block" : ""} font-bold text-[#fd853aec] -translate-y-2 text-sm sm:text-base lg:text-lg tracking-wide `}
         >
-          Jastan Ric
+          Akshika
         </span>
         <div
           onClick={(e) => {
