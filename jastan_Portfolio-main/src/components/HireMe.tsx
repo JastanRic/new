@@ -1,0 +1,103 @@
+"use client";
+import React from "react";
+import CustomeText from "@/components/ui/CustomeText";
+import Image from "next/image";
+import ClientOnly from "@/components/ui/ClientOnly";
+
+export default function HireMe() {
+  return (
+    <div className="w-full flex  items-center justify-between px-6 py-20 bg-[#F2F4F7] ">
+      <div className=" w-full mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 xl:max-w-5xl 2xl:max-w-7xl ">
+        <div className="relative w-full max-w-xl lg:hidden flex  aspect-square group mx-auto lg:mx-0">
+          <Image
+            src="/jastan4.png"
+            alt="Hire me"
+            fill
+            className="object-contain z-20 transition-all duration-300 ease-in-out group-hover:translate-y-3"
+            priority
+          />
+          <div className=" absolute w-[60%] h-[75%] bottom-0 translate-x-1/3 z-10 rounded-[15%] bg-[#feb173]">
+            <div className=" relative w-full h-full"></div>
+          </div>
+          <Image
+            src="/Property 1=Variant2.svg"
+            alt="Hire me"
+            fill
+            className="object-contain absolute lg:-translate-y-[15px] transition-all duration-300 ease-in-out lg:opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-110"
+            priority
+          />
+        </div>
+        <div className="w-full sm:max-w-[600px] md:max-w-[700px] max-w-[500px] flex flex-col lg:items-end gap-8">
+          <div className="flex flex-wrap text-4xl sm:text-5xl lg:text-6xl font-semibold gap-2">
+            <CustomeText title="Why" className="text-[#344054]" />
+            <CustomeText title="Hire me" className="text-[#FD853A]" />
+            <CustomeText title="?" className="text-[#344054]" />
+          </div>
+
+          <p className="text-[#98A2B3] text-justify text-base sm:text-lg lg:text-xl leading-relaxed ">
+            I am passionate about wildlife and have strong field awareness
+            developed through my academic background. My ability to understand
+            animal behaviour and communicate clearly adds value in creating
+            informative, safe, and memorable wildlife experiences.
+          </p>
+
+          <div className="flex flex-col sm:flex-row lg:justify-end gap-8 w-full">
+            <div className="flex flex-col">
+              <CustomeText
+                title="Flora"
+                className="text-[32px] sm:text-[36px] font-medium text-[#1D2939]"
+              />
+              <CustomeText
+                title="Plant Expertise"
+                className="text-lg text-[#667085]"
+              />
+            </div>
+            <div className="flex flex-col">
+              <CustomeText
+                title="Fauna"
+                className="text-[32px] sm:text-[36px] font-medium text-[#1D2939]"
+              />
+              <CustomeText
+                title="Animal Expertise"
+                className="text-lg text-[#667085]"
+              />
+            </div>
+          </div>
+
+          <ClientOnly>
+            <button
+              onClick={() =>
+                document.getElementById("contact")?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                })
+              }
+              className="w-full md:w-fit cursor-pointer sm:w-auto px-6 py-4 rounded-[20px] border border-[#151515] text-[#151515] font-semibold text-2xl sm:text-[28px] transition-all duration-300 hover:bg-[#151515] hover:text-white focus:bg-[#151515] focus:text-white"
+            >
+              Hire me
+            </button>
+          </ClientOnly>
+        </div>
+        <div className="relative w-full max-w-xl hidden lg:flex  aspect-square group mx-auto lg:mx-0">
+          <Image
+            src="/jastan4.png"
+            alt="Hire me"
+            fill
+            className="object-contain z-20 transition-all duration-300 ease-in-out group-hover:translate-y-3"
+            priority
+          />
+          <div className=" absolute w-[60%] h-[75%] bottom-0 translate-x-1/3 z-10 rounded-[15%] bg-[#feb173]">
+            <div className=" relative w-full h-full"></div>
+          </div>
+          <Image
+            src="/Property 1=Variant2.svg"
+            alt="Hire me"
+            fill
+            className="object-contain absolute -translate-y-[15px] transition-all duration-300 ease-in-out opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-110"
+            priority
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
