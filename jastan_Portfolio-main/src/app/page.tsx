@@ -79,7 +79,7 @@ export default function Home() {
 
             <Image
               src="/jastanR3.png"
-              alt="jastanRic"
+              alt="Akshika"
               width={888}
               height={888}
               quality={90}
